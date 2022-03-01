@@ -1,0 +1,395 @@
+.wrap {
+	margin: 0, auto;
+
+	flex-direction: column;
+	padding-left: 30%;
+      display: flex;
+		flex-wrap: wrap;
+justify-content: center;
+max-width: 40%;
+    }
+   
+    
+    .catalog{
+		 margin: 0, auto;
+		 padding-top: 150px;
+		 position: relative;
+		 bottom: 50px;
+		 background-color: #86a3db;
+      flex: 1 0 80%;
+      display: flex;
+      flex-wrap: wrap;
+		justify-content: center ;
+		
+
+
+    }
+	 .catalog1{
+		margin: 0, auto;
+		padding-top: ;
+		position: relative;
+		bottom: ;
+		background-color: #86a3db;
+	  flex: 1 0 80%;
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: left ;
+	  
+
+
+	}
+	 .catalog :last-child{
+		 justify-content: center;
+	 }
+    .cell {
+		 position: relative;
+		align-items: center;
+      padding: 35px 15px 25px 15px;
+      flex: 0 0 calc( 0% - 0px );
+      min-width: 160px;
+      display: flex;
+      flex-direction: row;
+		justify-content: center;
+
+    }
+    .cell_inside {
+		 width: 190px;
+		 height: 240px;
+    	background-color: #a538ad;
+   	 min-height: 150px;
+		 overflow:hidden;
+
+    }
+    .table{
+		 
+	 }
+
+	 .button__block{
+	
+		color: purple;
+		 font-size: 25px;
+		 cursor: pointer;
+		 border: none;
+		background-color: #f0d5e6;
+		
+			font-family: "game-pixies";
+			src: url("../fonts/Gamepixies.ttf");
+			 url("../fonts/Gamepixies.ttf") format("truetype")
+			font-weight: normal;
+			
+		 }
+.button{
+	flex-direction: column;
+
+position: absolute;
+top: 80%;}
+.href{
+	
+	position: relative; top: 83%;
+	cursor: pointer;
+	font-family: "game-pixies";
+			src: url("../fonts/Gamepixies.ttf");
+			 url("../fonts/Gamepixies.ttf") format("truetype")
+			font-weight: normal;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	font-size: 20px;
+	color: #a73cae;
+	flex-direction: column;
+	background-color: #f0d5e6;
+}
+.footer{
+	position: relative;
+	bottom: 76px;
+}
+*
+.dropbtn {
+	right: ;
+	background-color: #f1d5e4;
+	color: #f742f8;
+	padding-left: ;
+	font-size: calc(0.8rem + 0.8vw);
+	border: none;
+}
+button{
+	font-family: "game-pixies";
+			src: url("../fonts/Gamepixies.ttf");
+			 url("../fonts/Gamepixies.ttf") format("truetype")
+			font-weight: normal;
+			
+}
+@font-face {
+	font-family: "game-pixies";
+	src: url("../fonts/Gamepixies.ttf");
+	 url("../fonts/Gamepixies.ttf") format("truetype")
+	font-weight: normal;
+ }
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	font-family: "game-pixies";
+			font-weight: normal;
+	position: relative;
+	left: 5px;
+	top: 15px;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	font-family: "game-pixies";
+			src: url("../fonts/Gamepixies.ttf");
+			 url("../fonts/Gamepixies.ttf") format("truetype")
+			font-weight: normal;
+			
+	display: none;
+	position: absolute;
+	background-color: #a538ad;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	font-family: "game-pixies";
+			src: url("../fonts/Gamepixies.ttf");
+			 url("../fonts/Gamepixies.ttf") format("truetype")
+			font-weight: normal;
+			
+	color: white;
+	padding: 4px 8px;
+	text-decoration: none;
+	display: block;
+}
+.sort{
+	height: 150px;
+	width: 284px;
+}
+
+.sort__text{
+	color: white; 
+	padding-left: 5px;
+	position: relative;
+	top: 0px;
+	right: 30px ;
+	font-size: 24px;
+}
+.sort__followers{
+	height: 100px;
+	width: 200px;
+	color: white; 
+	padding-left: 5px;
+	position: relative;
+	top: 40px;
+	font-size: 24px;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #a538ad;
+
+}
+.filtr{
+	position: relative; left: 40%; top:35px;
+	max-width: 30%;
+} 
+#size{
+	position: relative; top: 15px; width: ;
+}
+.dollars{
+	
+	word-spacing: 70px;
+	color: white;
+}
+.followers{
+	position: relative;
+	top: 60px;
+	word-spacing: 70px;
+	color: white;
+}
+input[type=range]  {
+	width: 200px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	overflow: hidden;
+	height: 7px;
+ }
+
+ input[type=range]::-webkit-slider-runnable-track {
+	height: 7px;
+	background-color: #f744f8;
+ }
+
+ input[type=range]::-webkit-slider-thumb {
+	background: #ecf0f1;
+	cursor: pointer;
+	width:15px;
+	height: 15px;
+	-webkit-appearance: none;
+	margin-top: -4px;
+	box-shadow: -200px  0 0 200px  white;
+
+ }
+
+ input[type=range]::-moz-range-track {
+	  height: 7px;
+	  background-color: blue;
+ }
+
+
+input[type=range]::-moz-range-thumb {
+	background: #a538ad;
+	cursor: pointer;
+	height: 7px;
+	border-radius:0px;
+	box-shadow: -200px  0px 0px 200px   #43e5f7;
+	padding: 0px;
+	margin: 0px;
+ }
+ input[type=range]  {
+	width: 200px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	overflow: hidden;
+	height: 7px;
+ }
+
+ input[type=range]::-webkit-slider-runnable-track {
+	height: 7px;
+	background-color: #f744f8;
+ }
+
+ input[type=range]::-webkit-slider-thumb {
+	background: #ecf0f1;
+	cursor: pointer;
+	width:15px;
+	height: 15px;
+	-webkit-appearance: none;
+	margin-top: -4px;
+	box-shadow: -200px  0 0 200px  white;
+
+ }
+
+ input[type=range]::-moz-range-track {
+	  height: 7px;
+	  background-color: blue;
+ }
+
+
+input[type=range]::-moz-range-thumb {
+	background: #a538ad;
+	cursor: pointer;
+	height: 7px;
+	border-radius:0px;
+	box-shadow: -200px  0px 0px 200px   #43e5f7;
+	padding: 0px;
+	margin: 0px;
+ }
+.body2{
+	display: block;
+	justify-content: center;
+	position: relative;
+	
+	width: 50%;
+	background-color: #43e5f7;
+}
+*
+.table__text{
+	display: block;
+	z-index: 22;
+	cursor: pointer;
+	background-color: #bcdd14;
+	color: #8d0fae;
+	font-size: 18px;
+	font-family: "game-pixies";
+			src: url("../fonts/Gamepixies.ttf");
+			 url("../fonts/Gamepixies.ttf") format("truetype")
+			font-weight: normal;
+}
+.flex__text{
+	max-width: 100%;
+}
+.love{
+	width: 100%;
+	position: relative; bottom: 0px; right: 0px;
+	color: white; font-size: 18PX;
+	font-family: "game-pixies";
+	z-index: 30;
+}
+
+ .overflow{
+	 position: relative;
+	 bottom: 300px;
+	background-color: #eb86ec;
+	color:#a233aa;
+	height: 300px; /* высота нашего блока */
+width: 600px; /* ширина нашего блока */
+border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+overflow-y: scroll; /* прокрутка по вертикали */
+min-height: 400px;
+} 
+.overflow::-webkit-scrollbar {
+	background: #a538ad; 
+	width: 15px; /* ширина нового скроллбара */
+
+	box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}        
+ .overflow::-webkit-scrollbar-thumb {
+	background: #e9ccea; /* цвет фона у дорожки */
+	border: 3px solid #a538ad; /* толщина, стиль и цвет рамки */ 
+	width: 10px;
+	margin-right: 5px;
+}
+.inside{
+	min-height: 50px;
+	margin: 15px 15px 15px 15px;
+	max-width: 550px ;
+	height:auto ;
+	background-color: #f1b3f4;
+}
+.inside__img{
+	
+	float:left; /* Выравнивание по левому краю */
+	margin: 7px 7px 7px 0;
+	position: relative;
+	
+}
+.inside__img img{
+	width: 60px;
+}
+.very__good{
+width: 100%;
+z-index: -1;
+        display: flex;
+
+}
+ .image{
+	 
+	font-weight: lighter;
+	 position: relative; right: 55px; bottom: 280px;
+	 color:#a538ad;
+ }
+ .greenbuy{
+	border: 5px solid #a538ad;; 
+	cursor: pointer;
+	 font-size: 18px;
+	 font-weight: ;
+	 font-family: 'Game-pixies';;
+	 color:#a538ad ;
+	position: relative; top: 124px; right: 25px;
+	background-color: #bbdd14;
+ }
+ .nextback{
+	 font-size: 16px;
+	 color: blue;
+	 cursor: pointer;
+	 background-color:  ;
+ }
